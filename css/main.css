@@ -54,6 +54,16 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
 /* Hero */
 #hero {
 	background: url(../img/header-bg.jpg) no-repeat center top;
@@ -62,7 +72,7 @@ a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center top;
-	min-height: 600px;
+	min-height: 550px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -84,4 +94,24 @@ a:after {
 #hero h3 {
 	font-size: 20px;
 	color: white;
+}
+
+/* About */
+
+#about {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+} 
+
+#about h5, p {
+	color: white;
+}
+
+#about i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
 }
