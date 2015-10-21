@@ -115,3 +115,7 @@ hr {
 	padding-right: 8px;
 	vertical-align: middle;
 }
+
+sm {
+	font-size: 12px;
+}
