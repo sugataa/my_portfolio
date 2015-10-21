@@ -53,3 +53,35 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+/* Hero */
+#hero {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	/*margin-top: 60px;*/
+	padding-top:200px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center top;
+	min-height: 600px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hero h1 {
+	font-size: 80px;
+	color: white;
+}
+
+#hero h3 {
+	font-size: 20px;
+	color: white;
+}
